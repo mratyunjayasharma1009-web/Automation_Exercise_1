@@ -27,7 +27,7 @@ pipeline {
         }
     }
 
-    post {a
+    post {
         always {
             archiveArtifacts artifacts: 'report.html'
         }
