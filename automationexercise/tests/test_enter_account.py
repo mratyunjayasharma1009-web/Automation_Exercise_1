@@ -21,6 +21,7 @@ def test_account_created(browser):
         page2.click_on_newsletter_check_box()
         page2.enter_address(row['address'])
         page2.select_country(row['country'])
+
         page2.enter_zipcode(row['zipcode'])
         page2.enter_your_city(row['city'])
         page2.enter_your_mob_no(row['mobileno'])
